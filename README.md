@@ -5,6 +5,33 @@ with Kotlin and Jetpack Compose.
 
 ## Features
 
+### 🤖 Gemini AI Assistant via Firebase (NEW!)
+
+- **AI-Powered Chat Interface**: Ask questions about forex, currencies, and financial markets
+- **Currency Pair Analysis**: Get instant AI-powered analysis of any currency pair using Gemini 1.5
+  Flash
+- **Forex Trading Tips**: Receive personalized forex trading advice
+- **Natural Language Understanding**: Chat naturally with Gemini about market trends and economics
+- **Context-Aware Responses**: Gemini understands your current currency selections
+- **Quick Actions**: One-tap access to common queries and analysis
+- **Powered by Firebase Vertex AI**: Uses the latest, officially supported Gemini API
+
+📖 **Setup Required**: See **[Firebase Setup Guide](FIREBASE_SETUP_COMPLETE_GUIDE.md)** (5 minutes)  
+📝 **Migration Summary**: See **[Migration Complete Summary](MIGRATION_COMPLETE_SUMMARY.md)**
+
+### 🆕 Real-Time Price Graphs
+
+- **Live Currency Exchange Charts**: Real-time visualization of exchange rates with historical
+  tracking
+- **Forex Market Dashboard**: Monitor 10 popular currency pairs simultaneously with auto-refresh
+- **Stock Price Graphs**: Individual price charts for each stock with trend indicators
+- **Auto-Refresh**: Automatic updates every 10-30 seconds depending on data type
+- **Interactive Charts**: Toggle chart visibility, manual refresh, and color-coded trends
+- **Historical Data**: Track up to 30 data points per currency pair or 20 for stocks
+- **Top Movers Chart**: Visual comparison of the most active stocks
+
+📖 **[View Complete Graph Guide](REAL_TIME_GRAPHS_GUIDE.md)**
+
 ### Core Functionality
 
 - **Single Screen UI**: All functionality on one clean, uncluttered screen
@@ -49,6 +76,7 @@ Uses the free, key-less **Frankfurter API** (api.frankfurter.dev):
 - **Gson** - JSON serialization/deserialization
 - **Lifecycle ViewModel Compose** - ViewModel integration with Compose
 - **Coroutines** - Asynchronous programming
+- **Vico Charts** - Material 3 compatible charting library for real-time data visualization
 
 ## Project Structure
 
